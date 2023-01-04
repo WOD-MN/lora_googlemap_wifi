@@ -8,7 +8,7 @@ const char* password = "your_wifi_password";
 
 void setup() {
   // Initialize LoRa radio
-  LoRa.begin(915E6);
+  LoRa.begin(433E6);
 
   // Connect to WiFi
   WiFi.begin(ssid, password);
