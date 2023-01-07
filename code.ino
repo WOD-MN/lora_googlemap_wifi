@@ -3,7 +3,7 @@
 #include <WiFi.h>
 #include <GoogleMaps.h>
 
-const char* ssid = "your_wifi_ssid";
+const char* ssid = "your_wifi_name";
 const char* password = "your_wifi_password";
 
 void setup() {
